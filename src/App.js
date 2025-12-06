@@ -4,7 +4,7 @@ import Propostas from "./componentes/Propostas/Propostas.js";
 import Agenda from "./componentes/Agenda/Agenda.js";
 import Footer from "./componentes/Footer/Footer.js";
 import "./App.css"
-import "./index.css"
+import "./global.css"
 
 
 
@@ -12,10 +12,10 @@ export default function App(){
     return (
         <div className="App">
             <Header />
-            <Biografia />
-            <Propostas />
-            <Agenda />
-            <Footer />
+            <Biografia id="biografia" />
+            <Propostas id="propostas" />
+            <Agenda id="agenda" />
+            <Footer id="contato" />
         </div>
     )
 }

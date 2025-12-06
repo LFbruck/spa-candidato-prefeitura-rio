@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+:root {
+    --cor-principal: #2E7D32;
+    --cor-destaques: #e1d162;
+    --cor-auxiliar: #1E88E5;
+    --cor-branco: #FFFFFF;
+}
