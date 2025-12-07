@@ -9,7 +9,7 @@ export default function Header(
                 <a href="#biografia">Biografia</a>
                 <a href="#propostas">Propostas</a>
                 <a href="#agenda">Agenda</a>
-                <a href="#contato">Contatos</a>
+
             </nav>
 
         </header>
