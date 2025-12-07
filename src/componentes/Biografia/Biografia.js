@@ -3,7 +3,7 @@ import "./Biografia.css";
 export default function Biografia(){
 return(
     <section className="biografia" >
-        <img src="/candidatoFicticioHorizontal.png" alt="Foto Candidato" />
+        <img src="/prefeitoMarcoMadureiraHorizontal.png" alt="Foto Candidato" />
         <h2 id="biografia">Minha História</h2>
         <h3 >1982 — Onde tudo começou</h3>
         <p>Nasci em 12 de agosto de 1982, na Zona Norte do Rio de Janeiro. Filho de uma professora da rede municipal e de um servidor público, cresci em um lar simples, mas cheio de valores: respeito, educação e trabalho duro.</p>

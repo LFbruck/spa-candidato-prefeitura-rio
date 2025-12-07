@@ -24,3 +24,10 @@ p{
     margin-left: 30px;
     font-size: 30px;
 }
+
+@media(min-width:576px){
+    section{
+        flex-direction: row;
+
+    }
+}
