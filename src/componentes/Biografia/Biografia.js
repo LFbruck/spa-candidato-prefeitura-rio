@@ -3,7 +3,11 @@ import "./Biografia.css";
 export default function Biografia(){
 return(
     <section className="biografia" >
-        <img src="/prefeitoMarcoMadureiraHorizontal.png" alt="Foto Candidato" />
+
+        <img src="/prefeitoMarcoMadureiraHorizontal.png" alt="Foto Candidato" id="imgHorizontal" />
+        <img src="/prefeitoMarcoMadureiraVertical.png" alt="Foto Candidato" id="imgVertical" />
+
+        <div>
         <h2 id="biografia">Minha História</h2>
         <h3 >1982 — Onde tudo começou</h3>
         <p>Nasci em 12 de agosto de 1982, na Zona Norte do Rio de Janeiro. Filho de uma professora da rede municipal e de um servidor público, cresci em um lar simples, mas cheio de valores: respeito, educação e trabalho duro.</p>
@@ -28,6 +32,7 @@ return(
         <p>Decidi me candidatar à Prefeitura do Rio. Não por vaidade, mas por acreditar que posso ajudar nossa cidade a reencontrar seu caminho, sua força e seu orgulho.</p>
         <h3>Hoje — Compromisso com o futuro</h3>
         <p>Carrego minha história, minha experiência e minha determinação para construir um Rio: mais seguro, mais humano, mais inteligente e com oportunidades reais para todos. A minha vida é a trilha que me trouxe até aqui — e é com ela que quero ajudar a escrever o futuro da nossa cidade.</p>
+        </div>
     </section>
 )
 }
