@@ -48,10 +48,11 @@ p{
         display: flex;
         flex-direction: row;
         margin-top: 10px;
+        gap: 4px;
     }
     h2{
 
-        font-size: 40px;
+        font-size: 50px;
         margin-top: 20px;
     }
     h3{
@@ -59,6 +60,7 @@ p{
     }
     p{
         font-size: 20px;
+        margin-right: 10px;
     }
     #imgHorizontal{
         display: none;
@@ -67,8 +69,8 @@ p{
         display: block;
         margin-top: 20px;
 
-        height: 1000px;
-        margin-left: 10px;
+        height: 1100px;
+        margin-left: 15px;
     }
 
 }
