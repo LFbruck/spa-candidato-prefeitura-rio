@@ -1,0 +1,12 @@
+.propostas{
+    display: flex;
+    flex-direction: column;
+}
+
+#propostas{
+    margin-top: 20px;
+    border-top: 2px solid black;
+}
+.cardContainer{
+    display: grid;
+}
