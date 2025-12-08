@@ -1,11 +1,13 @@
 section{
     display: flex;
     flex-direction: column;
-    gap:30px
+    gap:30px;
+
 }
 #imgHorizontal{
     width: 100%;
     height: auto;
+    border-bottom: 7px solid var(--cor-principal)
 }
 #imgVertical{display: none}
 h2{
@@ -13,42 +15,47 @@ h2{
     color: var(--cor-destaques);
     font-size: 50px;
     font-weight: bold;
+    margin-bottom: 20px;
 
 }
 h3{
     margin-left: 40px;
     font-size: 30px;
     margin-top: 7px;
-    color: var(--cor-principal)
+    color: var(--cor-principal);
 }
 p{
     margin-left: 30px;
     font-size: 20px;
     margin-top: 10px;
+    font-family: Georgia, serif;
 }
 
 
 @media(min-width:768px){
     h2{
+        margin-top: 10px;
         font-size: 60px;
     }
     h3{
-        font-size: 40px;
+        font-size: 34px;
     }
     p{
-        font-size: 25px;
+        font-size: 22px;
     }
    #imgHorizontal{
        height: 100%;
    }
 }
 
-@media(min-width:1025px){
+@media(min-width:1024px){
     section{
         display: flex;
         flex-direction: row;
         margin-top: 10px;
         gap: 4px;
+        margin-right: 30px;
+        margin-left: 20px;
     }
     h2{
 
@@ -68,7 +75,7 @@ p{
     #imgVertical{
         display: block;
         margin-top: 20px;
-
+        border-right: 10px solid var(--cor-principal);
         height: 1100px;
         margin-left: 15px;
     }
