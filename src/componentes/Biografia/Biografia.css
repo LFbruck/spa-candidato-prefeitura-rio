@@ -47,18 +47,27 @@ p{
     section{
         display: flex;
         flex-direction: row;
-        margin-top: 40px;
+        margin-top: 10px;
     }
     h2{
-        font-size: 50px;
+
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    h3{
+        font-size: 26px;
+    }
+    p{
+        font-size: 20px;
     }
     #imgHorizontal{
         display: none;
     }
     #imgVertical{
         display: block;
-        width: 1000px;
-        height: 600px;
+        margin-top: 20px;
+
+        height: 1000px;
         margin-left: 10px;
     }
 
