@@ -11,12 +11,23 @@ html,body{
 
 }
 
+
 :root {
     --cor-principal: #2E7D32;
     --cor-destaques: #edce03;
     --cor-auxiliar: #1E88E5;
     --cor-branco: #FFFFFF;
 }
-
-
+@media (prefers-color-scheme: dark) {
+    :root {
+        --cor-principal: #1a4d2e;
+        --branco: #1a1a1a;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
 
