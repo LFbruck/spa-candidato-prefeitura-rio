@@ -18,7 +18,19 @@ export default function Propostas(){
 
 
 
-        </div>
+            </div>
+            <div className="outrasPropostas">
+                <h3>Outras Propostas:</h3>
+                <ul>
+                    <li>Turismo que Movimenta</li>
+                    <li>Esportes para Todos</li>
+                    <li>Ensino Mercado Financeiro e Criptomoedas</li>
+                    <li>Agua e Saneamento sem Falhas</li>
+                    <li>Iluminação e Acessibilidade</li>
+                </ul>
+
+
+            </div>
         </section>
     )
 
