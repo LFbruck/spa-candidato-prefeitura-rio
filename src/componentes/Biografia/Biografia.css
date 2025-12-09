@@ -75,7 +75,7 @@ p{
     }
     #imgVertical{
         display: block;
-        margin-top: 20px;
+        margin-top: 30px;
         border-right: 10px solid var(--cor-principal);
         height: 1100px;
         margin-left: 15px;
