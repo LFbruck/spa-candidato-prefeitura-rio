@@ -99,7 +99,7 @@
     }
 
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     .cardContainer{
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
