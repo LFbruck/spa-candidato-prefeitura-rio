@@ -24,13 +24,12 @@ return(
         <p>Durante esses anos, tive a oportunidade de coordenar iniciativas nas áreas de educação, empregabilidade jovem, modernização administrativa e digitalização de serviços públicos. Foram anos de muito trabalho e resultados concretos, que melhoraram a vida de milhares de cariocas.</p>
         <h3>2017 — Reconhecimento profissional</h3>
         <p>Fui convidado para liderar um programa de inovação dentro da prefeitura, focado em reduzir burocracias e ampliar o acesso da população a serviços essenciais. Ali, aprendi que eficiência não é luxo — é obrigação.</p>
-        <h3>2019 — Construindo pontes</h3>
-        <p>Assumi funções que exigiam diálogo com comunidades, empresas, ONGs e autoridades. Nesse período, entendi que nenhuma cidade avança sem unir diferentes setores em torno de soluções comuns.</p>
+
         <h3>2022 — O chamado para algo maior</h3>
         <p>Depois de mais de 15 anos trabalhando nos bastidores da gestão pública, senti que era hora de dar um passo adiante e assumir mais responsabilidades. Passei a me preparar para colocar minha trajetória a serviço de toda a cidade.</p>
         <h3>2024 — Um novo capítulo</h3>
         <p>Decidi me candidatar à Prefeitura do Rio. Não por vaidade, mas por acreditar que posso ajudar nossa cidade a reencontrar seu caminho, sua força e seu orgulho.</p>
-        <h3>Hoje — Compromisso com o futuro</h3>
+        <h3 id="destaque">Hoje — Compromisso com o futuro</h3>
         <p>Carrego minha história, minha experiência e minha determinação para construir um Rio: mais seguro, mais humano, mais inteligente e com oportunidades reais para todos. A minha vida é a trilha que me trouxe até aqui — e é com ela que quero ajudar a escrever o futuro da nossa cidade.</p>
         </div>
     </section>

@@ -31,6 +31,9 @@ p{
     margin-top: 10px;
     font-family: Georgia, serif;
 }
+#destaque{
+    color: var(--cor-auxiliar);
+}
 
 
 @media(min-width:768px){
